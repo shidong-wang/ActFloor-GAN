@@ -263,7 +263,6 @@ for inputFP in inputFPs:
             i +=1
     
     img = np.ones((canvas_size, canvas_size), dtype=np.uint8)
-
     output_img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
     output_img[:,:,0] = 255
     output_img[:,:,1] = 255

@@ -84,9 +84,6 @@ def main(dataset_4c_dir, dataset_test_path, output_dir):
     test_num = 0
     for name in names_fp:
         
-        # if test_num == 10 :
-        #     break
-        
         path_fp = f'{dataset_4c_dir}/{name}.png'
         if not os.path.exists(path_fp):
             print(name)

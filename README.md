@@ -9,7 +9,7 @@
 -NumPy 1.21.5
 
 ### Dataset
--The dataset used in this paper can be downloaded from [here](https://drive.google.com/file/d/1tCtRZ92RFmX3YR-Y1Wky71QIOmIC7jz0/view?usp=sharing). After downloading, place the dataset in the folder `Network/\Dataset\dataset_4c`.
+-The dataset used in this paper can be downloaded from [here](https://drive.google.com/file/d/1tCtRZ92RFmX3YR-Y1Wky71QIOmIC7jz0/view?usp=sharing). After downloading, place the dataset in the folder `\Dataset\dataset_4c`.
 Each data in the dataset is a four-channel raster image, sequentially consisting of boundary mask, category mask, human-activity map, and inside mask.
 The boundary mask, category mask, and inside mask are sourced from the RPLAN dataset downloaded from [here](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html).
 -Run `dataset_split.py` to randomly split the dataset (optional).

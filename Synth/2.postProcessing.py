@@ -939,7 +939,6 @@ if __name__ == '__main__':
     dataset_dir = f'{dataset_rootDir}/dataset_4c'
     genfps_dir = 'genRasterLayout'
     output_dir = 'normalization'
-
     main(dataset_dir, genfps_dir, output_dir)
     
     

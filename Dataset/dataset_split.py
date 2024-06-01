@@ -2,7 +2,6 @@ import os
 import numpy as np
 
 def getIDtxt(dataset, outputPath):
-
     if os.path.exists(outputPath):
         os.remove(outputPath)
 

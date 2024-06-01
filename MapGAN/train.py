@@ -17,7 +17,6 @@ sys.path.append(os.path.abspath('../'))
 from utils import weights_init_normal
 from dataset_rplan import ImageDataset
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', type=int, default=0, help='starting epoch')
 parser.add_argument('--n_epochs', type=int, default=100, help='number of epochs of training')

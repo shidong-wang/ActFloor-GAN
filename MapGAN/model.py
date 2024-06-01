@@ -41,7 +41,6 @@ class Generator(nn.Module):
         self.conv15 = nn.ConvTranspose2d( ngf * 2, nc_out, 4, 2, 1, bias=False)
         
     def forward(self, input):
-
         x1 = self.activatation(self.conv1(input))
         x2 = self.activatation(self.conv_bn2(self.conv2(x1)))
         x3 = self.activatation(self.conv_bn3(self.conv3(x2)))

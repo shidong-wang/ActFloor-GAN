@@ -44,7 +44,6 @@ opt.log_path = os.path.join('output', str(datetime.datetime.now()) + '.txt')
 
 if torch.cuda.is_available():
 	opt.cuda = True
-
 opt.resume = False
 
 print(opt)

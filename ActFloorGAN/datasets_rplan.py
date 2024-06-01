@@ -7,7 +7,6 @@ from utils import getBoundary, getFloorplan, getActivity
 class ImageDataset(Dataset):
     def __init__(self, root, transforms_=None, set_name = 'train'):
         self.transform = transforms.Compose(transforms_)
-
         path_dataset_4c = f'{root}/dataset_4c'
         path_dataset_split = f'{root}/dataset_split/{set_name}.txt'
         names_fp = open(path_dataset_split).read().split('\n')
