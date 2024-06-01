@@ -1,6 +1,5 @@
 ## [ActFloor-GAN: Activity-Guided Adversarial Networks for Human-Centric Floorplan Design](https://arxiv.org/pdf/2111.03545)
-![Paper Image](<img src="./ActFloorGAN.png" alt="Paper Image" width="80%" height="80%"/>
-)
+![Paper Image](./ActFloorGAN.png)
 
 ## Getting Started
 
