@@ -37,3 +37,19 @@ The boundary mask, category mask, and inside mask are sourced from the RPLAN dat
 
 ### Acknowledgement
 * Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
+
+### Citation (Bibtex)
+Please cite our paper if you find it useful:
+
+``` 
+@ARTICLE{wang2023actfloorgan,
+  author={Wang, Shidong and Zeng, Wei and Chen, Xi and Ye, Yu and Qiao, Yu and Fu, Chi-Wing},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={ActFloor-GAN: Activity-Guided Adversarial Networks for Human-Centric Floorplan Design}, 
+  year={2023},
+  volume={29},
+  number={3},
+  pages={1610-1624},
+  doi={10.1109/TVCG.2021.3126478}
+  }
+``` 
