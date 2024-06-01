@@ -16,15 +16,13 @@ The boundary mask, category mask, and inside mask are sourced from the RPLAN dat
 
 ### Training
 
-* We provide two training scripts: `MapGAN\train.py` and `ActFloorGAN\train.py` that you can find in the corresponding folders.
-
-For example:
+* We provide two training scripts: `MapGAN\train.py` and `ActFloorGAN\train.py` that you can find in the corresponding folders. For example:
 ```
   cd MapGAN
   python train.py
 ```
 
-The trained model can be download [here](https://drive.google.com/file/d/1Pk002-MS7pwBC4wNCgZfkZNGlyYj1DCQ/view?usp=drive_link) for test.
+* The trained model can be download [here](https://drive.google.com/file/d/1Pk002-MS7pwBC4wNCgZfkZNGlyYj1DCQ/view?usp=drive_link) for test.
 
 ### Synth Floorplans
 
@@ -38,4 +36,4 @@ The trained model can be download [here](https://drive.google.com/file/d/1Pk002-
 * Run `python Visualization.py`, and then you can obtain the rasterized color floorplans in folder `Visualization/outputFPs`.
 
 ### Acknowledgement
-Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
+* Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
