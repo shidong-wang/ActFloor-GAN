@@ -158,11 +158,11 @@ for epoch in range(opt.epoch, opt.n_epochs):
 
             result_path = 'output'
             img_fake = 0.5 * (gen_image.detach().data + 1.0)
-            save_image(img_fake, '{}/{}fake.png'.format(result_path, epoch+1, ), nrow=8)
+            save_image(img_fake, '{}/{}fake.png'.format(result_path, epoch+1), nrow=8)
             img_real = 0.5 * (y_.detach().data + 1.0)
-            save_image(img_real, '{}/{}real.png'.format(result_path, epoch+1, ), nrow=8)
+            save_image(img_real, '{}/{}real.png'.format(result_path, epoch+1), nrow=8)
             img_input = 0.5 * (x_.detach().data + 1.0)
-            save_image(img_input, '{}/{}input.png'.format(result_path, epoch+1, ), nrow=8)
+            save_image(img_input, '{}/{}input.png'.format(result_path, epoch+1), nrow=8)
 
     # Save models checkpoints
     torch.save(G.state_dict(), 'output/G.pth')

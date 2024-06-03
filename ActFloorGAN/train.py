@@ -239,15 +239,15 @@ for epoch in range(opt.epoch, opt.n_epochs):
 
 			result_path = 'output'
 			img_fake_A = 0.5 * (fake_A.detach().data + 1.0)
-			save_image(img_fake_A, '{}/{}fake_A.png'.format(result_path, epoch+1, ), nrow=8)
+			save_image(img_fake_A, '{}/{}fake_A.png'.format(result_path, epoch+1))
 			img_real_A = 0.5 * (real_A.detach().data + 1.0)
-			save_image(img_real_A, '{}/{}real_A.png'.format(result_path, epoch+1, ), nrow=8)
+			save_image(img_real_A, '{}/{}real_A.png'.format(result_path, epoch+1))
 			img_fake_B = 0.5 * (fake_B.detach().data + 1.0)
-			save_image(img_fake_B, '{}/{}fake_B.png'.format(result_path, epoch+1, ), nrow=8)
+			save_image(img_fake_B, '{}/{}fake_B.png'.format(result_path, epoch+1))
 			img_real_B = 0.5 * (real_B.detach().data + 1.0)
-			save_image(img_real_B, '{}/{}real_B.png'.format(result_path, epoch+1, ), nrow=8)
+			save_image(img_real_B, '{}/{}real_B.png'.format(result_path, epoch+1))
 			img_activity_C = 0.5 * (activity_C.detach().data + 1.0)
-			save_image(img_activity_C, '{}/{}activity_C.png'.format(result_path, epoch+1, ), nrow=8)
+			save_image(img_activity_C, '{}/{}activity_C.png'.format(result_path, epoch+1))
 			
 	# Update learning rates
 	lr_scheduler_G.step()
