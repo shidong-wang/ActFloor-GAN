@@ -1,5 +1,7 @@
 ## [ActFloor-GAN: Activity-Guided Adversarial Networks for Human-Centric Floorplan Design](https://arxiv.org/pdf/2111.03545)
 ![Paper Image](./ActFloorGAN.png)
+**Shidong Wang**, Wei Zeng*, Xi Chen, Yu Ye, Yu Qiao, and Chi-Wing Fu
+IEEE Transactions on Visualization and Computer Graphics, 29(3): 1610-1624, 2023. (**TVCG**)
 
 ## Getting Started
 
