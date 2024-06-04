@@ -24,9 +24,9 @@ class ImageDataset(Dataset):
         #inside_mask = image_array[:,:,3]
 
         input_boundary = self.transform(Image.fromarray(np.uint8(getBoundary(category_mask))))
-        target_heatmap = getActivity(activity_mask)
+        target_activityMap = getActivity(activity_mask)
 
-        return input_boundary, target_heatmap
+        return input_boundary, target_activityMap
     
     def __len__(self):
         return len(self.floorplans)
